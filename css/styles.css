@@ -1,8 +1,32 @@
 body {
     font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font-family: 'Roboto', sans-serif;
+.navigation {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+
+.logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
     font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-studio {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.studio-menu {
+    color: var(--NAVY-BLUE, #2E2F42);
 }
