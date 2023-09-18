@@ -1,6 +1,9 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    background: #FFF;
+    width: 1440px;
+    height: 3300px;
 }
 
 .navigation {
@@ -9,6 +12,10 @@ body {
 }
 
 .logo {
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
@@ -21,13 +28,12 @@ body {
 
 .logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
 }
 
-.studio-menu {
+.menu nav {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Roboto;
     font-size: 16px;
@@ -35,4 +41,37 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+
+.contacts-menu {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+
+.link {
+    color: var(--SLATE, #434455);
+}
+
+.hero-image {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.hero-title {
+
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+.botton {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
 }
