@@ -18,14 +18,14 @@ body {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    line-height: 1.17
+    line-height: 1.17;
 }
 
 .logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.menu nav {
+.menu-nav {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -33,6 +33,14 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+
+.link-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .address {
@@ -46,6 +54,9 @@ body {
 
 .link {
     color: var(--SLATE, #434455);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
 
 .hero-image {
@@ -61,7 +72,7 @@ body {
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
-    line-height: 1.07
+    line-height: 1.07;
 }
 
 .button {
@@ -75,6 +86,9 @@ body {
     letter-spacing: 0.64px;
 }
 
+.about:hover .about:focus {
+    background-color: #404BBF;
+}
 
 .title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -84,7 +98,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .text {
