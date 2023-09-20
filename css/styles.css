@@ -102,11 +102,12 @@ body {
 }
 
 .text {
+    background-color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.section-title2 {
+.section-title {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
@@ -115,6 +116,16 @@ body {
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.section-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
 }
 
 .span {
