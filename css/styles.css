@@ -6,7 +6,6 @@ body {
 }
 
 .navigation {
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
 
@@ -27,9 +26,8 @@ body {
 }
 
 .menu nav {
-    display: inline-flex;
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -57,18 +55,19 @@ body {
 .hero-title {
     color: var(--WHITE, #FFF);
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
+    line-height: 1.07
 }
 
 .button {
     background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -79,17 +78,23 @@ body {
 
 .title {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .section-title2 {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -98,17 +103,7 @@ body {
     text-transform: capitalize;
 }
 
-.title2 {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-}
-
-.logo-studio2 {
+.span {
     color: #f4f4fd;
 }
 
