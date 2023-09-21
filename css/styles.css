@@ -3,63 +3,62 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+
 }
 
-.navigation {
+/* Header */
+.header {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
 
-.logo {
-    color: var(--IRIS, #4D5AE5);
-    font-family: "Raleway", sans-serif;
+.header-navigation {
+    background: var(--WHITE, #FFF);
+}
+
+.header-logo {
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
     line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.menu-nav {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: 'Raleway', sans-serif;
+.header-menu-list {
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
-
-.link-nav {
-    font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
-.address {
+.header-menu-item {}
+
+.header-menu-link {
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.header-address {
     font-style: normal;
-    font-size: 16px;
 }
 
-.contacts-menu {
+.header-address-menu {
     background: var(--WHITE, #FFF);
 }
 
-.link {
+.header-address-item {}
+
+.header-address-link {
     color: var(--SLATE, #434455);
     line-height: 1.5;
     letter-spacing: 0.02em;
-
 }
 
-.hero-image {
+/* Hero */
+.hero {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -75,7 +74,7 @@ body {
     line-height: 1.07;
 }
 
-.button {
+.hero-btn {
     background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
     font-family: "Roboto", sans-serif;
@@ -90,42 +89,111 @@ body {
     background-color: #404BBF;
 }
 
-.title {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-style: normal;
+/* About Us */
+
+.about-us {}
+
+.about-us-title {
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+    font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.text {
-    background-color: #FFFFFF;
+.about-us-list {}
+
+.about-us-item {}
+
+.about-us-subtitle {}
+
+.about-us-item-text {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.section-title {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: 'Raleway', sans-serif;
+/* Our Team */
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.our-team-title {
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
     line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.section-list {
+.our-team-list {
+    background-color: #FFFFFF;
+}
+
+.our-team-item {}
+
+.our-team-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
+.our-team-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Our Portfolio */
+.our-portfolio {}
+
+.our-portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+
+.our-portfolio-list {}
+
+.our-portfolio-item {}
+
+.our-portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.our-portfolio-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Footer*/
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo-btr {
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .span {
@@ -136,8 +204,5 @@ body {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
-}
 
-.footer {
-    background: var(--NAVY-BLUE, #2E2F42);
 }
