@@ -66,6 +66,14 @@ body {
     letter-spacing: 0.02em;
 }
 
+.header-address-link:hover {
+    color: #404bbf;
+}
+
+.header-address-link:focus {
+    color: #404bbf;
+}
+
 /* Hero */
 .hero {
     background: var(--NAVY-BLUE, #2E2F42);
