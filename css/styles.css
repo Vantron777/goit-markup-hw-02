@@ -42,6 +42,14 @@ body {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
+.header-menu-link:hover {
+    color: #404bbf;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
 .header-address {
     font-style: normal;
 }
@@ -56,10 +64,6 @@ body {
     color: var(--SLATE, #434455);
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.a:hover .a:focus {
-    color: #404bbf;
 }
 
 /* Hero */
@@ -90,27 +94,32 @@ body {
     letter-spacing: 0.64px;
 }
 
-.button:hover .about:focus {
+.hero-btn:hover {
     background-color: #404BBF;
 }
+
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
 
 /* About Us */
 
 .about-us {}
 
-.about-us-title {
+.about-us-title {}
+
+.about-us-list {}
+
+.about-us-item {}
+
+.about-us-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
-.about-us-list {}
-
-.about-us-item {}
-
-.about-us-subtitle {}
 
 .about-us-item-text {
     font-size: 16px;
@@ -126,19 +135,27 @@ body {
 
 .our-team-title {
     font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.our-team-list {}
+
+.our-team-item {
+    background-color: #FFFFFF;
+}
+
+.our-team-subtitle {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
-.our-team-list {
-    background-color: #FFFFFF;
-}
-
-.our-team-item {}
-
-.our-team-subtitle {}
 
 .our-team-item-text {
     font-size: 16px;
