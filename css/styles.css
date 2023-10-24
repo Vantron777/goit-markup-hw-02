@@ -6,6 +6,14 @@ body {
 
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* Header */
 .header {
     background: var(--WHITE, #FFF);
